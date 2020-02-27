@@ -7,5 +7,5 @@ for h in range(1, 255, 1):
     else:
         print(" -> NO está activa")
 
-print("Total activas: " + contador + "\n Total inactivas: " + (255-contador))
+print("Total activas: " + str(contador) + "\n Total inactivas: " + str(255-contador))
 
